@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ryan Gosling</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Menú en la parte superior -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Reemplaza 'https://github.com/tu_usuario' con el enlace a tu perfil de GitHub -->
+            <a class="navbar-brand" href="https://github.com/tu_usuario">
+                <button class="btn btn-primary">Menú</button>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Asegúrate de tener una imagen llamada 'imagen 1.jpg' en la misma carpeta que este archivo -->
+                <img src="imagen 3.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <!-- Asegúrate de tener una imagen llamada 'imagen 2.jpg' en la misma carpeta que este archivo -->
+                <img src="imagen 2.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Texto en 2 columnas -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Reemplaza este texto por contenido relacionado con Ryan Gosling -->
+                <p>Aqui debe de ir contenido el texto especifico nro 1 sobre la tematica de esta presentacion: yo (soy Ryan Gosling).</p>
+            </div>
+            <div class="col-md-6">
+                <!-- Reemplaza este texto por más información sobre Ryan Gosling -->
+                <p>Agregado a esto, deje en el href de arriba a la izquierda el link a mi usuario de ,github.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acordeón -->
+    <div class="container mt-4">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <!-- Puedes cambiar el título del acordeón aquí -->
+                        Acordeón 1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!-- Reemplaza este texto con información adicional sobre Ryan Gosling -->
+                        Texto genérico para el primer acordeón. Aquí puedes escribir información adicional sobre Ryan Gosling.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <!-- Puedes cambiar el título del acordeón aquí -->
+                        Acordeón 2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!-- Reemplaza este texto con más detalles o curiosidades sobre Ryan Gosling -->
+                        Texto genérico para el segundo acordeón. Puedes añadir más detalles o curiosidades sobre Ryan Gosling aquí.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
